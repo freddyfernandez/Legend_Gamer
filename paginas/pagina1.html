@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="../css/Estilos1.css">
+	<link rel="stylesheet" href="../css/SliderBanner.css">
+	<link rel="stylesheet" href="../css/Menu Horizontal Responsivo.css">
+	
+
+
+	
+	</head>
+<body onload="rotacion()">
+
+
+	<div id="contenedor">
+		<header>
+					
+						
+					<div style="position: relative;">
+						<div id="Fondo"><img src="../Imagenes/FondEstrellas.jpg" id="FondoBaner"width="100%" height="500px" vspace="16" />
+						</div>
+							<div style="position:absolute; top:0; left:0; color:white;">
+							
+							<script type="text/javascript">
+							function startTime(){
+							today=new Date();
+							h=today.getHours();
+							m=today.getMinutes();
+							s=today.getSeconds();
+							m=checkTime(m);
+							s=checkTime(s);
+							document.getElementById('reloj').innerHTML=h+":"+m+":"+s;
+							t=setTimeout('startTime()',500);}
+							function checkTime(i)
+							{if (i<10) {i="0" + i;}return i;}
+							window.onload=function(){startTime();}
+							</script>
+							<div id="reloj" style="font-size:50px;" >
+							</div>
+
+
+							<div class="container">
+							<img src="../Imagenes/LogoAzul.gif" id="Logo" alt="">
+
+			  				<div id="carousel">
+
+								<figure><img src="../Imagenes/Juego1.jpg" height="300px" width="186px"class="img"></figure>
+								<figure><img src="../Imagenes/Juego2.jpg" height="300px" width="186px"class="img"></figure>
+								<figure><img src="../Imagenes/Juego3.jpg" height="300px" width="186px"class="img"></figure>
+								<figure><img src="../Imagenes/Juego4.jpg" height="300px" width="186px"class="img"></figure>
+								<figure><img src="../Imagenes/Juego5.jpg" height="300px" width="186px"class="img"></figure>
+								<figure><img src="../Imagenes/Juego6.jpg" height="300px" width="186px"class="img"></figure>
+								<figure><img src="../Imagenes/Juego7.jpg" height="300px" width="186px"class="img"></figure>
+								<figure><img src="../Imagenes/Juego8.jpg" height="300px" width="186px"class="img"></figure>
+								<figure><img src="../Imagenes/Juego9.jpg" height="300px" width="186px"class="img"></figure>
+							</div>
+							</div>
+							</div>
+					</div> 
+
+					
+		</header>
+
+				
+				<div id="menuResponsive">
+				<input type="checkbox" id="btn-menu">
+				<label for="btn-menu"><img src="../Imagenes/Menu.png" height="30px" width="30px"></label>
+				<nav class="menu">
+					<ul>
+						<li><a href="../index.html">HOME</a></li>
+						<li><a href="Pagina1.html">Top Juegos</a></li>
+						<li><a href="Pagina2.html">Lista de Juegos</a></li>
+						<li><a href="Pagina3.html">Registrate</a></li>
+						
+						
+						
+					</ul>
+						</nav>	
+				</div>
+		
+		<main>
+
+			<aside class="redessociales">
+				<img id="imgsocial1" class="imgsocial" src="../imagenes/r1.jpg" onclick="redsocial(0)" style="opacity: 1; width: 45px; height: 50px;">
+				<img id="imgsocial2" class="imgsocial" src="../imagenes/r2.jpg" onclick="redsocial(1)" style="opacity: 1; width: 45px; height: 50px;">
+				<img id="imgsocial3" class="imgsocial" src="../imagenes/r3.jpg" onclick="redsocial(2)" style="opacity: 1; width: 45px; height: 50px;">
+	
+			
+			</aside>
+			<section>
+			<div style="position:relative">
+			<img src="../Imagenes/FondoVerdeClaro.jpg" width="100%" height="620px" vspace="16" />
+			<div style="position:absolute; top:0; left:0;">
+						
+			<div class="Caja1">
+
+								<img src="../Imagenes/Juego1.jpg" width="200px" height="200px" id="imgrs1" ><p id="precio">
+									S/.20
+									<div class="Caja2">
+										<p>Juego Navideño de duendes<br>Apto para todos</p>
+									</div>
+
+				</div>
+				<div class="Caja1">
+
+								<img src="../Imagenes/Juego2.jpg" width="200px" height="200px" id="imgrs2"><p id="precio">
+									S/.35
+									<div class="Caja2">
+										<p>Super Mario Bros, ha regresado! <br>Apto para todos</p>
+									</div>
+
+				</div>
+				<div class="Caja1">
+
+								<img src="../Imagenes/Juego3.jpg" width="200px" height="200px" id="imgrs3"><p id="precio">
+									S/.32
+									<div class="Caja2">
+										<p>Sorcery!, la aventura continua<br>+14</p>
+									</div>
+					
+				</div>
+			</div>
+			</div>
+			
+			</section>
+				
+
+			<section>
+				<div style="position:relative">
+			<img src="../Imagenes/FondoVerdeClaro.jpg" width="100%" height="620px" vspace="16" />
+			<div style="position:absolute; top:0; left:0;">
+						
+				<div class="Caja1">
+
+								<iframe width="630" height="315" src="https://www.youtube.com/embed/0VTHZtatB3w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				</div>
+				<div class="Caja1">
+
+								<img src="../Imagenes/Juego5.jpg" width="200px" height="200px" id="imgrs4"><p id="precio">
+									S/.18
+									<div class="Caja2">
+										<p>Marvel vs Capcom!!!<br>+14</p>
+									</div>
+
+				</div>
+				<div class="Caja1">
+
+							
+
+				</div>
+			</div>
+			</div>
+		
+			</section>
+				
+		</main>
+		<!-- <aside></aside> -->
+		<footer>				
+				<div style="position:relative">
+				
+				<img src="../Imagenes/LegendGamer.png"width="150px" height="100px" >
+				<div style="position:absolute; top:0; left:0;" id="footer1">
+
+				<p>
+								© Derechos reservados <br>
+								LEGEND GAMER <br>
+								Diciembre - 2018
+							</p>
+				</a>
+				</div>
+				</div> 
+							
+
+			
+		</footer>
+			<div class="social">
+					
+
+				</div>
+
+	</div>
+	<script src="../js/jquery.js"></script>
+	<script src="../js/app1.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,241 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+    background-image: url("../IMAGENES/EFECTO.gif");
+    background-position: center;
+}
+.cuerpo {
+    width: 90%;
+    margin: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color:black;
+}
+header {
+    text-align: center;
+    background-image: url("../IMAGENES/nieve.gif");
+    background-position: center;
+}
+#titulo{
+    width: 600px;
+    padding: 30px;
+    margin-top: 20px;
+}
+#gorro{
+    position: absolute;
+    width: 90px;
+    height: 70px;
+    left: 860px;
+    top: 6px;
+    transform: rotate(-20deg);
+}
+#personaje1{
+    position: absolute;
+    width: 90px;
+    left: 110px;
+    top: -5px;
+}
+#personaje2{
+    position: absolute;
+    width: 185px;
+    right: 100px;
+    top: 10px;
+}
+/*Menu*/
+#navPanel {
+    height:40px;
+    background-color: black;
+    border:  2px solid white;
+    width: 905px;
+    margin: auto;
+}
+#menuH {
+	margin: auto;
+	background-color: black;
+    width: 905px;
+}
+ul {
+	list-style:none;
+	padding: 0px;
+}
+.boton li a {
+    background-color: none;
+	color: white;
+	text-decoration: none;
+	padding: 10px 12px;
+	display: block;
+	min-width: 200px;
+    font-weight: bold;
+    text-shadow: 1px 1px red;
+}
+.boton > li {
+	float: left;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+    font-family: "Arial ";
+}
+.b{
+    width: 16px;
+}
+#men{
+    background-image: url("../IMAGENES/menu.gif");
+    background-position: center;
+}
+/**//* Main *//**/
+main{
+    background-image: url("../IMAGENES/nieve.gif");
+    background-position: center;
+}
+#aside{
+    margin-top: 50px;
+    flex-direction: row;
+	height: 850px;
+    border-bottom: 5px solid black;
+    display: flex;
+    margin-bottom: 50px;
+}
+#arbol{
+    padding-left: 50px;
+    width: 500px;
+    height: 800px;
+}
+#viñeta{
+    position: absolute;
+    width: 930px;
+    right: 100px;
+    top: 350px;
+    transform: rotate(-10deg);
+}
+#sorteo{
+    position: absolute;
+    width: 600px;
+    right: 250px;
+    top: 470px;
+    transform: rotate(-10deg);
+}
+#ya{
+    position: absolute;
+    width: 700px;
+    right: 150px;
+    top: 860px;
+}
+/*Formulario*/
+#c{
+    padding-bottom: 50px;
+}
+#contenido{
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    border: 3px solid red;
+    padding-bottom: 10px;
+}
+h2{
+    color: red;
+    text-shadow: 1px 1px black;
+    padding: 10px;
+    font-size: 40px;
+    font-family: verdana;
+}
+input {
+    width: 100%;
+    height: 20px;
+}
+.t1{
+    width: 50%;
+    color: black;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: bold;
+}
+tr{
+    border: 20px;
+}
+button{
+    width: 10px;
+}
+.btn{
+    width: 30%;
+    padding: 2px;
+    margin: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 25px;
+    background-color: red;
+    color: white;
+    border-color: #000;
+}
+/*Footer*/
+footer{
+	background-color: black;
+	width: 100%;	
+	height: 100px;
+	overflow: hidden;
+    color: white;
+}
+footer #footer1 p{
+    text-align: center;
+}
+footer p{
+	padding-top: 20px;
+	padding-left: 620px;
+    font-family: "Comic Sans MS", cursive;
+}
+
+
+
+/** BOTONES REDES SOCIALES*/
+
+
+#imgsocial1 {
+ 
+    width: 45px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border-radius: 15px;
+    border: white 1px solid;
+    display: inline-block;
+    padding: 1px;
+    cursor: pointer;
+    position: fixed;
+    top: 50px;
+	left: 2px;
+	z-index: 1;
+
+}
+#imgsocial2 {
+ 
+    width: 45px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border-radius: 15px;
+    border: white 1px solid;
+    display: inline-block;
+    padding: 1px;
+    cursor: pointer;
+    position: fixed;
+    top: 120px;
+	left: 2px;
+	z-index: 1;
+}
+#imgsocial3 {
+   
+    width: 45px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border-radius: 15px;
+    border: white 1px solid;
+    display: inline-block;
+    padding: 1px;
+    cursor: pointer;
+    position: fixed;
+    top: 190px;
+	left: 2px;
+	z-index: 1;
+}

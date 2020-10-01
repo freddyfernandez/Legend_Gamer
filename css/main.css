@@ -1,0 +1,164 @@
+
+main{
+    width: 100%;
+    display: flex;
+}
+.redessociales{
+ 
+ width: 5%;
+ height: 140px;
+
+}
+.contenido{
+
+  width: 80%;
+
+  
+}
+.video {
+  
+    justify-content: center;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+
+
+}
+
+.video .videoinicial{
+    width: 80%;
+    height: 460px;
+}
+
+.introduccion{
+   
+ 
+   height: 50%;
+   width: 100%;
+   text-align: center;
+  
+
+
+}
+.noticia{
+    background-color: brown;
+    width: 15%;
+    font-size: 100%;
+    text-align: center;
+
+   
+}
+
+.noticia img{
+    width: 100%;
+    height:200px ;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    padding-top: 50px; 
+      
+  
+
+}
+
+.imgfooter {
+  height: 150px;  
+  width: 48%;
+  align-items: center;
+  text-align: right;
+
+  
+
+}
+.imgfooter img{
+    width: 150px;
+    
+    
+
+}
+.datosfooter{
+    height: 150px;
+    color: white;
+    width: 52%;
+    padding-top: 10px;
+    
+ 
+
+}
+
+
+.descrip {
+    position: absolute;
+    text-align: justify;
+    
+    padding: 60px 100px;
+    margin-left: 5%;
+    font-size: 30px;
+    color: white;
+    width: 70%;
+    height: 80%;
+    align-items: center;
+
+
+    
+    
+}
+.imgintro{
+    height:90%;
+    width: 80%;
+}
+
+/** BOTONES REDES SOCIALES*/
+
+
+#imgsocial1 {
+ 
+    width: 45px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border-radius: 15px;
+    border: white 1px solid;
+    display: inline-block;
+    padding: 1px;
+    cursor: pointer;
+    position: fixed;
+    top: 50px;
+    left: 2px;
+
+}
+#imgsocial2 {
+ 
+    width: 45px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border-radius: 15px;
+    border: white 1px solid;
+    display: inline-block;
+    padding: 1px;
+    cursor: pointer;
+    position: fixed;
+    top: 120px;
+    left: 2px;
+}
+#imgsocial3 {
+   
+    width: 45px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border-radius: 15px;
+    border: white 1px solid;
+    display: inline-block;
+    padding: 1px;
+    cursor: pointer;
+    position: fixed;
+    top: 190px;
+    left: 2px;
+}
+
+

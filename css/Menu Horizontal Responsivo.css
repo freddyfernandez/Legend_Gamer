@@ -1,0 +1,81 @@
+/*Menu Horizontal Responsivo*/
+
+#menuResponsive{
+	width: 100%;
+	background-color: #0FDC61;
+
+	}
+#btn-menu{
+	display: none;
+}
+#menuResponsive label{
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+	border-right: 1px solid #fff;
+}
+#menuResponsive label:hover{
+	cursor: pointer;
+	background-color: blue;
+}
+.menu ul{
+
+	margin: 0px;
+	list-style: none;
+	padding: 0px;
+	display: flex;
+	flex-direction: row;
+
+}
+.menu li{
+	text-align: center;
+	flex-grow: 1;
+	border: .5px solid #fff;
+	height: 100px;
+
+}
+.menu li:hover{
+	background-color: black;
+}
+.menu li a{
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+	text-decoration: none;
+	line-height: 50px;
+	font-size: 50px;
+}
+
+@media(max-width: 768px){
+	.menu li{
+	height: 50px;
+
+	}
+	.menu li a{
+		font-size: 25px;
+		line-height: 25px;
+	}
+	#menuResponsive label{
+		display: block;
+		height: 35px;
+		width: 35px;
+	}
+	.menu{
+		position:absolute;
+		background-color: blue;
+		width: 70%;
+		margin-left: -80%;
+		transition: all 0.5s;
+	}
+	.menu ul{
+		flex-direction: column;
+	}
+	.menu li{
+		border-top: 1px solid #fff;
+	}
+	#btn-menu:checked ~ .menu{
+		margin:0px;
+
+	}
+}

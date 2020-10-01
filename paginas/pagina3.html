@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formularioas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../CSS/Estilos3.css" />
+   
+</head>
+<body>
+    <img id="imgsocial1" class="imgsocial" src="../imagenes/r1.jpg" onclick="redsocial(0)">
+    <img id="imgsocial2" class="imgsocial" src="../imagenes/r2.jpg" onclick="redsocial(1)"> 
+    <img id="imgsocial3" class="imgsocial" src="../imagenes/r3.jpg" onclick="redsocial(2)">
+    <div class="cuerpo">
+        <header>
+            <img id="titulo"src="../IMAGENES/TITULO.gif">
+            <img id="gorro" src="../IMAGENES/gorro.png">
+            <img id="personaje1" src="../IMAGENES/personaje.gif">
+            <img id="personaje2" src="../IMAGENES/personje2.gif">
+        </header>
+        <div id="men">
+        <nav id="navPanel">
+            <div id="menuH">
+                <ul class="boton">
+                    <li><a href="../index.html"><img class="b" src="../imagenes/casa.png"> HOME</a></li>
+                    <li><a href="Pagina1.html"><img class="b" src="../imagenes/hobbies.png"> TOP JUEGOS</a></li>
+                    <li><a href="Pagina2.html"><img class="b" src="../imagenes/mando.png"> JUEGOS</a> </li>
+                    <li><a href="Pagina3.html"><img class="b" src="../imagenes/telefono.png"> REGISTRARSE</a></li>  
+                </ul>
+            </div>
+        </nav>
+        </div>
+        <main>
+            <div id="aside">
+                <aside>
+                    <img id="arbol" src="../IMAGENES/arbol.gif">
+                </aside>
+                <section>
+                    <img id="viñeta" src="../IMAGENES/viñeta.png">
+                    <img id="sorteo" src="../IMAGENES/sorteo.gif">
+                    <img id="ya" src="../IMAGENES/ifinscripciones.png">
+                </section>
+            </div>
+            <div id="c">
+                <section id="contenido">
+                                <center>
+                                <table id="form">
+                                        <H2>LLENAR DATOS</H2>
+                                        <tr>
+                                            <td class="t1">Nombres</td>
+                                            <td><input id="nombre" type="text" placeholder="Tu nombre es.." required></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1">Apellidos</td>
+                                            <td><input id="apellido" type="text" placeholder="Tu apellido es.." required></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1">Correo</td>
+                                            <td><input id="email" type="text" placeholder="Tu correo es..." required></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1">Celular</td>
+                                            <td><input id="celular" type="text" placeholder="Tu celular es..." required></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1">DNI</td>
+                                            <td><input id="dni" type="text" placeholder="Tu dni es..." required></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="t1">Direccion</td>
+                                            <td><input id="direccion" type="text" placeholder="Tu direccion es..." required></td>
+                                        </tr>
+                                    </table>
+                                    <div>
+                                            <input class="btn" type="button" id="btn_limpia" value="Limpiar" onclick="limpiar()" onmouseover="btn1_1()" onmouseout="btn1_2()">
+                                            <input class="btn" type="button" id="btn_valida" value="Registrarse" onclick="validarRegistro(
+                                                document.getElementById('nombre').value,
+                                                document.getElementById('apellido').value,
+                                                document.getElementById('email').value,
+                                                document.getElementById('celular').value,
+                                                document.getElementById('dni').value,
+                                                document.getElementById('direccion').value,
+                                            )" onmouseover="btn2_1()" onmouseout="btn2_2()">
+                                    </div>
+                            </center>
+                </section>
+            </div>
+        </main>
+    
+    <footer>				
+            <div style="position:relative">
+            
+            <img src="../Imagenes/LegendGamer.png"width="150px" height="100px" >
+            
+            <div style="position:absolute; top:0; left:0;" id="footer1">
+
+            <p>
+                            © Derechos reservados <br>
+                            LEGEND GAMER <br>
+                            Diciembre - 2018
+                        </p>
+            </a>
+            </div>
+            </div> 
+                        
+
+        
+    </footer>
+    <script src="../js/jquery.js"></script>
+    <script src="../JS/pagina3.js"></script>
+</body>
+</html>

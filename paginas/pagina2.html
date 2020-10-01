@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document2</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../CSS/Estilos2.css" />
+
+    
+ 
+
+
+</head>
+<body onload="rotacion()">
+    <img id="imgsocial1" class="imgsocial" src="../imagenes/r1.jpg" onclick="redsocial(0)">
+    <img id="imgsocial2" class="imgsocial" src="../imagenes/r2.jpg" onclick="redsocial(1)"> 
+    <img id="imgsocial3" class="imgsocial" src="../imagenes/r3.jpg" onclick="redsocial(2)">
+    <button class="ir-arriba">Subir</button>
+    
+  
+    <header >
+
+        <img id="baner" src="../IMAGENES/PAGINA2.jpg">
+        <img class="imglogo" src="../IMAGENES/LegendGamer.jpg">
+        
+        <div id="siguiente" onclick="avanzar()">
+            <img class="flechas" src="../IMAGENES/fd.jpg">
+
+
+        </div>
+        <div id="anterior" onclick="retroceder()">
+            <img class="flechas" src="../IMAGENES/fi.jpg">
+
+
+        </div>
+
+    </header>
+    <nav>
+        <div id="cajaboton">
+        <button class="boton" onclick="pagina(0)">HOME</button>
+        <button class="boton" onclick="pagina(1)">TOP JUEGOS</button>
+        <button class="boton" onclick="mostrar(3)">LISTADO</button>
+        <button class="boton" onclick="pagina(2)">REGISTRATE</button>
+        
+        </div>
+
+
+    </nav> 
+    
+        
+    <main id="mainpanel">
+        <aside id="cajaboton2">
+                    <button  id="boton1" class="boton2" onclick="mostrar(0)" ><img class="icono" src="../imagenes/mando.png">TOP JUEGOS PC</button>
+                    <button id="boton2" class="boton2" onclick="mostrar(1)" ><img class="icono" src="../imagenes/mando.png">TOP JUEGOS PS4</button>
+                    <button id="boton3" class="boton2" onclick="mostrar(2)"><img class="icono" src="../imagenes/mando.png">TOP JUEGOS ANDROID</button>
+            
+        </aside>
+    
+         
+             
+    
+         <section>
+             <div id="bienvenida">
+
+               <article class="articulo">
+               <center><video id="video" controls>
+					   <source src="../VIDEOS/Videojuegos2018.mp4">
+                       </video>
+               </center>
+               </article>
+               <article class="articulo" id="introduccion">
+               <h2>TOP DE LOS MEJORES JUEGOS</h2>    
+               <p id="parrafointro"> <strong>Aquí encontrarás los mejores juegos de todos los tiempos, valorados según la opinión de los usuarios, de metacritic o de nuestros analistas por orden de puntuación. Este Top de videojuegos está constantemente actualizado cada 24hrs. Se realiza haciendo una nota media entre la nota de nuestros análisis, la de Metacritica y la de los usuarios. Los ránkings de todas las plataformas solo tienen en cuenta las siguientes: PC, PS4, Xbox One.
+               </strong>
+                </p>
+
+               </article>
+
+             </div> 
+
+
+
+            <div id="contenido" style="display:none">
+             <article class="articulo" >
+                    <img class="imgarticulo"  src="" alt="">
+                    <center><button class="detalle" >Ver Detalles</button></center>
+                    <div class="subcontenido" >
+                        
+                        <h2 class ="h2"></h2>
+                        <p class="p1">
+                        
+                    </div>
+
+             </article>
+
+             <article class="articulo">
+                    <img class="imgarticulo" src="" alt="">
+                    <center><button class="detalle" >Ver Detalles</button></center>
+                    <div class="subcontenido">
+                            
+                            <h2 class ="h2"></h2>
+                            <p class="p1"></p>
+                        </div>
+
+             </article>
+
+             <article class="articulo">
+                    <img class="imgarticulo" src="" alt="">
+                    <center><button class="detalle" >Ver Detalles</button></center>
+                    <div class="subcontenido" >
+                            
+                            <h2 class ="h2"></h2>
+                            <p class="p1"></p>
+                    </div>
+
+             
+             </article>
+
+             <article class="articulo">
+                    <img class="imgarticulo" src="" alt="">
+                    <center><button class="detalle" >Ver Detalles</button></center>
+                    <div class="subcontenido">
+                            
+                            <h2 class ="h2"></h2>
+                            <p class="p1"></p>
+
+                    </div>
+
+
+             </article>   
+
+         </div> 
+             
+        </section>    
+
+    
+    </main>
+    <footer>				
+        <div style="position:relative; left:60px;" >
+        
+        <img src="../Imagenes/LegendGamer.png"width="150px" height="100px" >
+        
+        <div style="position:absolute; top:0; left:-150px;" id="footer1">
+
+        <p>
+                        © Derechos reservados <br>
+                        LEGEND GAMER <br>
+                        Diciembre - 2018
+                    </p>
+        </a>
+        </div>
+        </div> 
+                    
+
+    
+     </footer>
+     <script src="../js/jquery.js"></script>  
+     <script src="../js/App2.js"></script>
+     
+    
+
+    
+  
+    
+</body>
+</html>

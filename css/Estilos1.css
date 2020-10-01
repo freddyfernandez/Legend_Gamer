@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+	box-sizing: border-box;
+	/*border: .5px solid;*/
+}
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+#contenedor{
+	padding: 0px;
+	background-color: green;
+}
+header{
+	background-color: red;
+	width: 100%;
+	height: 500px;
+}
+nav{
+	background-color:#25710D;
+	width: 100%;
+	height: 100px;
+
+}
+main{
+	background-color: orange;
+	width: 100%;
+	height: 620px;
+	display: inline-flex;
+	float:right;
+	
+}	
+section{
+	width: 50%;
+	height:620px;
+	background-color: red
+}
+footer{
+	background-color: black;
+	width: 100%;	
+	height: 100px;
+	overflow: hidden;
+	color: white;
+
+}
+footer #footer1 p{
+	text-align: center;
+}
+
+
+footer p{
+	padding-top: 20px;
+	padding-left: 570px;
+	font-family: "Comic Sans MS", cursive;
+}
+	
+#Logo{
+	padding-left:  200px;
+	padding-top: 30px;
+}
+.Caja1{
+	display: flex;
+	flex-direction: row;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 50px;
+	display: inline-flex;
+	
+	
+}
+.Caja1 iframe {
+	padding-top: 20px;
+	padding-left:20px;
+}
+.Caja1 img{
+	padding:  20px;
+	float: left;
+	
+
+}
+.Caja1 p{
+	
+	padding-top:20px;
+}
+.Caja2 p{
+		font-size: 30px;
+		padding-top: 80px;
+
+}
+
+/** BOTONES REDES SOCIALES*/
+
+
+#imgsocial1 {
+ 
+    width: 45px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border-radius: 15px;
+    border: white 1px solid;
+    display: inline-block;
+    padding: 1px;
+    cursor: pointer;
+    position: fixed;
+    top: 50px;
+	left: 2px;
+	z-index: 1;
+
+}
+#imgsocial2 {
+ 
+    width: 45px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border-radius: 15px;
+    border: white 1px solid;
+    display: inline-block;
+    padding: 1px;
+    cursor: pointer;
+    position: fixed;
+    top: 120px;
+	left: 2px;
+	z-index: 1;
+}
+#imgsocial3 {
+   
+    width: 45px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border-radius: 15px;
+    border: white 1px solid;
+    display: inline-block;
+    padding: 1px;
+    cursor: pointer;
+    position: fixed;
+    top: 190px;
+	left: 2px;
+	z-index: 1;
+}
+
+
